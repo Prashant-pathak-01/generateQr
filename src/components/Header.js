@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div>
-        <Link to='/'><div className='logo'></div></Link>
-        <div className='mode'></div>
+        <Link to='/' className='logo'><div></div><h1>GenerateQr</h1></Link>
     </div>
   )
 }
