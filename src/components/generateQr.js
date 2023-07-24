@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './generateQr.css';
 function GenerateQr() {
   
-    const [text,setText] = useState('Welcome To QrCodeGenerator');
+    const [text,setText] = useState('');
     const [color,setColor] = useState('');
     const [bgcolor,setBgColor] = useState('');
     const[QR,setQR] = useState('');
